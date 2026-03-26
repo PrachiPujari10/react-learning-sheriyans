@@ -12,7 +12,7 @@ const Card = (props) => {
         </div>
 
         <div className="center">
-          <h3>{props.company} <span>% days ago</span></h3>
+          <h3>{props.company} <span>{props.datePosted}</span></h3>
           <h2>{props.post}</h2>
 
           <div className="tag">
